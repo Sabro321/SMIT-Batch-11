@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+
+/* .bowl {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: rgb(228, 143, 143);
+    border-style: groove;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 320px;
+    position: absolute;
+    animation: bowl 2s infinite alternate;
+}
+
+@keyframes bowl {
+    0% {
+        left: 0;
+        rotate: 36deg;
+    }
+
+    25% {
+        left: 85vw;
+    }
+
+    50% {
+        left: 0;
+    }
+
+    75% {
+        left: 85vw;
+    }
+
+    100% {
+        left: 0;
+    } */
+
+
+.jumping {
+    height: 200px;
+    width: 400px;
+    background-color: blueviolet;
+    border-style: dotted;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    animation: round 5s infinite alternate;
+    transition: all 1s;
+    font-size: xx-large;
+    box-shadow: 1px 2px 20px red;
+    position: absolute;
+}
+
+.truck img {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    height: 80px;
+    width: 100px;
+    animation: truck 3s infinite alternate;
+    transition: all 1s;
+}
+
+.truck:hover {
+    transform: rotate(320deg);
+}
+
+@keyframes truck {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 200;
+    }
+
+    50% {
+        left: 800;
+    }
+
+    100% {
+        left: 800;
+    }
+}
+
+
+/* @keyframes jump {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 40;
+    }
+
+    75% {
+        left: 0;
+    }
+
+    100% {
+        left: 40;
+    }
+} */
+@keyframes round {
+    0% {
+        color: blue;
+        background-color: white;
+        left: 0px;
+    }
+
+    25% {
+        color: red;
+        background-color: skyblue;
+        left: 300px;
+    }
+
+    75% {
+        color: skyblue;
+        background-color: red;
+        left: 600px;
+    }
+
+    100% {
+        color: indianred;
+        background-color: black;
+        left: 900px;
+    }
+}
+
+/* .jumping:hover {
+    transform: scale(1.3);
+} */

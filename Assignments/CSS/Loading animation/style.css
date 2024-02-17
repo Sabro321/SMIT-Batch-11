@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    height: 15px;
+    /* justify-content: space-around; */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    background-color: blue;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-left: 25px;
+}
+
+.navbar li {
+    justify-content: space-between;
+    margin: 25px;
+    margin-left: 0px;
+}
+
+input {
+    border-radius: 10px;
+    height: 20px;
+}
+
+.section {
+    background-color: black;
+    height: 540px;
+    width: 100%;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.loading {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    border-radius: 100px;
+    animation: anime 2s infinite alternate-reverse;
+}
+
+#loading1 {
+    animation: anime 2s infinite alternate-reverse;
+    animation-delay: 100ms;
+}
+
+#loading2 {
+    animation: anime 2s infinite alternate-reverse;
+    animation-delay: 200ms;
+}
+
+#loading3 {
+    animation: anime 2s infinite alternate-reverse;
+    animation-delay: 300ms;
+}
+
+#loading4 {
+    animation: anime 2s infinite alternate-reverse;
+    animation-delay: 400ms;
+}
+
+#loading5 {
+    animation: anime 2s infinite alternate-reverse;
+    animation-delay: 500ms;
+}
+
+@keyframes anime {
+    to {
+        scale: 1.1;
+    }
+
+    from {
+        scale: 0;
+    }
+}
